@@ -9,6 +9,15 @@ public class LibModuleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lib_module);
+
+
+        int layout = getIntent().getIntExtra("layout",-1);
+
+        if(layout != -1){
+            setContentView(layout);
+        }else{
+            setContentView(R.layout.activity_lib_module);
+        }
+
     }
 }
