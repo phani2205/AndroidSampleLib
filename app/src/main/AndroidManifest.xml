@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.phani.libraryapp">
+
+    <application
+        android:supportsRtl="true">
+        <activity
+            android:name=".MindBlockActivity"
+            android:exported="true" />
+
+    </application>
+
+</manifest>
