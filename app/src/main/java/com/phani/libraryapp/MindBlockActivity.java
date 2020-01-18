@@ -1,6 +1,5 @@
 package com.phani.libraryapp;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
@@ -11,7 +10,7 @@ public class MindBlockActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_lib);
         Toast.makeText(getApplicationContext(),"MindBlockActivity Again 3",Toast.LENGTH_LONG).show();
     }
 }
